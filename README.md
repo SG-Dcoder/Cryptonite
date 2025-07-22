@@ -1,12 +1,32 @@
+
 # 🪙 Cryptonite
 
 
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextlds.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoio/badge/Vercel-000000?style=for-the-badge&logo=vercel& cryptocurrency tracker web application built with Next.js*
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+### *A modern cryptocurrency tracker web application built with Next.js*
 
 Track, analyze, and stay updated with real-time cryptocurrency market data and trends.
 
+### 🚀 **[Live Demo](https://cryptonite-kappa.vercel.app/)** | 📖 **[Documentation](https://github.com/SG-Dcoder/Cryptonite)**
 
+
+
+---
+
+## 🔗 **Quick Links**
+
+- **🌐 Live Application**: [https://cryptonite-kappa.vercel.app/](https://cryptonite-kappa.vercel.app/)
+- **📂 GitHub Repository**: [https://github.com/SG-Dcoder/Cryptonite](https://github.com/SG-Dcoder/Cryptonite)
+- **📱 Mobile Responsive**: Optimized for all devices
+- **⚡ Performance**: Fast loading with Next.js optimization
+
+---
 
 ## 📋 **Table of Contents**
 
@@ -86,13 +106,13 @@ Track, analyze, and stay updated with real-time cryptocurrency market data and t
 ## 📦 **Installation**
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/cryptonite.git
-   cd cryptonite
+   ```
+   git clone https://github.com/SG-Dcoder/Cryptonite.git
+   cd Cryptonite
    ```
 
 2. **Install dependencies:**
-   ```bash
+   ```
    npm install
    # or
    yarn install
@@ -101,12 +121,12 @@ Track, analyze, and stay updated with real-time cryptocurrency market data and t
    ```
 
 3. **Environment setup:**
-   ```bash
+   ```
    cp .env.example .env.local
    ```
 
 4. **Configure environment variables:**
-   ```env
+   ```
    NEXT_PUBLIC_API_URL=https://api.coingecko.com/api/v3
    NEXT_PUBLIC_API_KEY=your_api_key_here
    DATABASE_URL=your_database_url
@@ -114,7 +134,7 @@ Track, analyze, and stay updated with real-time cryptocurrency market data and t
    ```
 
 5. **Start development server:**
-   ```bash
+   ```
    npm run dev
    # or
    yarn dev
@@ -150,7 +170,7 @@ Track, analyze, and stay updated with real-time cryptocurrency market data and t
 ## 📁 **Project Structure**
 
 ```
-cryptonite/
+Cryptonite/
 │
 ├── components/
 │   ├── ui/                     # Reusable UI components
@@ -183,7 +203,7 @@ cryptonite/
 - **CryptoCompare API** - Historical price data
 
 ### **API Endpoints**
-```javascript
+```
 // Market data
 GET /api/v3/coins/markets
 GET /api/v3/coins/{id}
@@ -205,51 +225,70 @@ GET /api/v3/global
 
 ## 🌐 **Deployment**
 
+### **Live Application**
+🔗 **Production URL**: [https://cryptonite-kappa.vercel.app/](https://cryptonite-kappa.vercel.app/)
+
+The application is deployed on **Vercel** with the following features:
+- ✅ **Automatic deployments** from GitHub
+- ✅ **Global CDN** for fast loading worldwide
+- ✅ **HTTPS** secure connection
+- ✅ **Custom domain** ready for professional use
+- ✅ **Real-time updates** with every commit
+
 ### **Vercel Deployment**
 1. **Connect repository** to Vercel dashboard
 2. **Configure environment variables** in Vercel settings
 3. **Deploy automatically** on every push to main branch
 
-```bash
+```
 # Manual deployment
 vercel --prod
 ```
 
-### **Netlify Deployment**
+### **Alternative Deployment Options**
+
+#### **Netlify Deployment**
 1. **Build the application:**
-   ```bash
+   ```
    npm run build
    npm run export
    ```
 
 2. **Deploy to Netlify:**
-   ```bash
+   ```
    netlify deploy --prod --dir=out
    ```
 
-### **AWS Deployment**
+#### **AWS Deployment**
 - **S3 + CloudFront** for static hosting
 - **Lambda functions** for API routes
 - **Route 53** for custom domain
 
+### **Environment Variables (Production)**
+The live application uses secure environment variables for:
+- `NEXT_PUBLIC_API_URL` - CoinGecko API endpoint
+- `NEXT_PUBLIC_API_KEY` - API authentication
+- `DATABASE_URL` - Database connection
+- `NEXTAUTH_SECRET` - Authentication security
+
 ## 🧪 **Testing**
 
 ### **Unit Testing**
-```bash
+```
 npm run test
 # or
 yarn test
 ```
 
 ### **E2E Testing**
-```bash
+```
 npm run test:e2e
 # or
 yarn test:e2e
 ```
 
 ### **Performance Testing**
-```bash
+```
 npm run lighthouse
 ```
 
@@ -281,12 +320,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 **Author**
 
-**Suraj Ghosh** - *Frontend Developer*
-- GitHub: [@SG-Dcoder](https://github.com/SG-Dcoder)
-- LinkedIn: [sg-dcoder](https://linkedin.com/in/sg-dcoder)
-- Email: surajghosh2724@gmail.com
 
 ## 🙏 **Acknowledgments**
 
@@ -294,10 +328,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **CoinGecko API** for comprehensive cryptocurrency data
 - **Next.js team** for the amazing framework
 - **Tailwind CSS** for utility-first styling approach
+- **Vercel** for seamless deployment experience
+
+---
 
 
 
 ### ⭐ **If you found this project helpful, please give it a star!**
 
 **Built for Groww Front-End Assignment Review Round**
+
+[![GitHub stars](https://img.shields.io/github/stars/SG-Dcoder/Cryptonite?style=social)](https://github.com/SG-Dcoder/Cryptonite/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SG-Dcoder/Cryptonite?style=social)](https://github.com/SG-Dcoder/Cryptonite/network/members)
+
+
+```
 
